@@ -1,0 +1,13 @@
+.GradientText {
+  font-size: 72px;
+  /* background: -webkit-linear-gradient(#eee, #333); */
+  background: linear-gradient(95deg, #9ee8fa 0%, rgba(255, 255, 255, 0) 16%),
+    linear-gradient(135deg, #a088ff 0%, #a088ff 14%, #37d7ff 81%, #37d7ff 100%),
+    linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
